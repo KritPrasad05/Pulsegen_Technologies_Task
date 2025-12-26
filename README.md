@@ -1,7 +1,7 @@
 
 # 🧬 Pulsegen: AI Module Extractor
 
-🎥 **Demo Video:**  
+🎥 **Demo Video:**  https://drive.google.com/file/d/1Q7dKgwIHtR4yrC9gXMHJ42AN6yV7ykzu/view?usp=sharing
 A complete screen recording demonstrating the working of this project is available here:  
 👉 **[Google Drive Demo Link – replace with your actual link]**
 

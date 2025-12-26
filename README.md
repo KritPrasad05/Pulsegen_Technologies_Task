@@ -1,5 +1,5 @@
 
-# 🧬 Pulsegen: AI Module Extractor
+#  Pulsegen: AI Module Extractor
 
 🎥 **Demo Video:**  
 
@@ -8,7 +8,7 @@ A complete screen recording demonstrating the working of this project is availab
 
 ---
 
-## 📌 Overview
+##  Overview
 
 **Pulsegen** is an AI-powered intelligent agent that autonomously crawls documentation websites, analyzes their structure, and extracts product **Modules** and **Submodules** into a clean, structured JSON format.
 
@@ -16,7 +16,7 @@ The system is designed to simulate how a **Senior AI Engineer** would build a do
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Multi-Source Extraction**  
   Process multiple documentation URLs simultaneously (comma-separated).
@@ -39,7 +39,7 @@ The system is designed to simulate how a **Senior AI Engineer** would build a do
 
 ---
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 ### Tech Stack
 
@@ -68,7 +68,7 @@ PLT_TASK/
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 
@@ -119,7 +119,7 @@ The application will open in your browser at:
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 1. **Launch the App**  
    Open the Streamlit UI in your browser.
@@ -129,20 +129,20 @@ The application will open in your browser at:
 
    **Example:**
    ```
-   https://wordpress.org/documentation/, https://docs.python.org/3/
+   https://www.chargebee.com/docs/2.0/, https://help.zluri.com/, https://support.neo.space/hc/en-us
    ```
 
 3. **Processing Pipeline**
-   - 🕷️ Crawl documentation pages
-   - 🧠 Analyze content using Gemini
-   - ✅ Generate structured module/submodule JSON
+   -  Crawl documentation pages
+   -  Analyse content using Gemini
+   -  Generate structured module/submodule JSON
 
 4. **Download Output**
    Click **“Download Consolidated JSON”** to save the results.
 
 ---
 
-## 🔍 Compatibility & Limitations
+##  Compatibility & Limitations
 
 ### ✅ Supported (Static / SSR Websites)
 
@@ -166,9 +166,9 @@ Sites that rely heavily on JavaScript rendering may return partial data:
 
 ---
 
-## 🧩 Key Implementation Highlights
+##  Key Implementation Highlights
 
-### 1️⃣ Robust Content Normalization
+### 1️ Robust Content Normalization
 
 HTML tables are converted into Markdown-style text for better LLM comprehension:
 
@@ -186,7 +186,7 @@ def normalize_content(self, soup):
 
 ---
 
-### 2️⃣ Strict JSON-Only AI Extraction
+### 2️ Strict JSON-Only AI Extraction
 
 The prompt enforces deterministic, machine-readable output:
 
@@ -215,7 +215,7 @@ CONTENT:
 
 ---
 
-## 📝 Assumptions
+##  Assumptions
 
 - **Documentation Structure:** Hierarchical (topics → subtopics)
 - **Language:** English
@@ -223,7 +223,7 @@ CONTENT:
 
 ---
 
-## 🤝 Troubleshooting
+##  Troubleshooting
 
 ### Model Access Issues
 
@@ -235,10 +235,8 @@ python check_models.py
 
 ---
 
-## 📜 License
+##  License
 
 This project is open-source and free to use for educational and demonstration purposes.
 
 ---
-
-**Pulsegen AI — Documentation Intelligence Agent**

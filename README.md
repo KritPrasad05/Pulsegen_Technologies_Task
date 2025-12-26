@@ -103,7 +103,7 @@ pip install -r requirements.txt
 2. Open `.env` and add your API key:
 
 ```env
-GEMINI_API_KEY=AIzaSy...your_actual_key...
+GEMINI_API_KEY=your_api_key...
 ```
 
 ---
